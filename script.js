@@ -1,7 +1,7 @@
 const app = document.getElementById('app');
 
 app.innerHTML = `
-<header class="px-4 lg:px-[60px] xl:px-[100px] py-4 border-b border-[#E1E3E8] bg-white sticky top-0 z-20">
+<header class="px-4 lg:px-[60px] xl:px-[100px] py-4 border-b border-[#E1E3E8] bg-white">
   <div class="max-w-[1240px] mx-auto flex justify-between items-center font-inter font-medium text-sm text-[#262A2E]">
     <img src="/images/mobile_logo.svg" alt="Euroflex" class="h-9">
     <div class="hidden md:flex gap-6 items-center">
@@ -15,13 +15,13 @@ app.innerHTML = `
 </header>
 
 <main>
-<section id="products" class="border-t border-[#E1E3E8] px-4 lg:px-[60px] xl:px-[100px]">
+<section id="products" class="px-4 lg:px-[60px] xl:px-[100px] pt-6 lg:pt-8">
   <div class="max-w-[1240px] mx-auto">
     <nav class="flex gap-2 items-center lg:mt-8 mt-6">
       <p class="font-inter text-sm text-[#4D545C]">Products</p><img src="/images/CaretRight.svg" alt=""><p class="font-inter text-sm text-black">Two For One Twister</p>
     </nav>
 
-    <div class="mt-7 lg:mt-12 flex flex-col lg:flex-row items-start gap-14">
+    <div class="mt-7 lg:mt-10 flex flex-col lg:flex-row items-start gap-14 lg:gap-16">
       <div class="w-full lg:flex-1 lg:max-w-[50%]">
         <div class="relative xl:w-[530px] lg:w-[440px] lg:h-[500px] md:h-[500px] w-full h-[300px] overflow-hidden bg-gray-100 rounded-3xl">
           <img id="hero-main" src="/images/hero_first_image.png" class="w-full h-full rounded-3xl object-cover" alt="hero">
@@ -32,8 +32,8 @@ app.innerHTML = `
       </div>
 
       <div class="w-full lg:flex-1">
-        <h1 class="font-urbanist font-bold text-4xl md:text-[56px] leading-[120%] text-black mt-4 mb-4">Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
-        <p class="text-[#4D545C] text-base leading-7">High-grade, BIS/ISO certified piping solutions engineered for irrigation, telecom, water supply, and industrial use. Built for durability and long-term field performance.</p>
+        <h1 class="font-urbanist font-bold text-[40px] md:text-[56px] leading-[120%] text-black mt-4 mb-5">Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
+        <p class="text-[#4D545C] text-base leading-[160%]">High-grade, BIS/ISO certified piping solutions engineered for irrigation, telecom, water supply, and industrial use. Built for durability and long-term field performance.</p>
         <div class="grid grid-cols-2 gap-4 mt-8 text-sm">
           <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/high-grade.svg" class="mb-3" alt="">High Grade Material</div>
           <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/performance.svg" class="mb-3" alt="">Excellent Performance</div>
@@ -45,7 +45,7 @@ app.innerHTML = `
   </div>
 </section>
 
-<section id="about" class="px-4 lg:px-[60px] xl:px-[100px] py-16">
+<section id="about" class="px-4 lg:px-[60px] xl:px-[100px] py-12 lg:py-20">
   <div class="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-6">
     <div class="bg-[#F5F7FB] p-6 rounded-3xl"><img src="/images/bis_certificate.svg" class="mb-3" alt="">BIS Certified</div>
     <div class="bg-[#F5F7FB] p-6 rounded-3xl"><img src="/images/iso_certificate.svg" class="mb-3" alt="">ISO Compliant Process</div>
@@ -53,7 +53,7 @@ app.innerHTML = `
   </div>
 </section>
 
-<section id="faq" class="px-4 lg:px-[60px] xl:px-[100px] pb-16">
+<section id="faq" class="px-4 lg:px-[60px] xl:px-[100px] pb-12 lg:pb-20">
   <div class="max-w-[900px] mx-auto">
     <h2 class="text-3xl md:text-4xl font-bold mb-6">Frequently asked questions</h2>
     <div class="space-y-4" id="faq-list"></div>
