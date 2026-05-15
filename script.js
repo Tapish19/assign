@@ -30,23 +30,13 @@ app.innerHTML = `
           <div class="mt-4 flex gap-3 overflow-x-auto scrollbar-hide pb-2" id="thumbs"></div>
         </div>
         <div class="w-full lg:flex-1">
-          <h1 class="font-urbanist font-bold text-[40px] md:text-[56px] leading-[120%] text-black mt-4 mb-5">Two For One Twister</h1>
-          <p class="text-[#4D545C] text-base leading-[160%]">Premium HDPE pipes built for irrigation, telecom, water supply, and infrastructure projects with consistent pressure handling and long service life.</p>
-
-          <div class="mt-8 p-6 rounded-3xl bg-[#F7F8F9] border border-[#E1E3E8]">
-            <p class="text-sm font-medium text-[#6A7077]">Price Range</p>
-            <div class="flex items-center justify-between mt-2">
-              <h3 class="font-urbanist font-bold text-[28px] text-[#111827]">₹120 - ₹1,850 <span class="text-base font-medium text-[#6A7077]">/ meter</span></h3>
-              <img src="/images/price-range-tab.svg" alt="price range" class="w-[68px] h-[30px]">
-            </div>
-            <p class="text-sm text-[#4D545C] mt-2">Final pricing depends on diameter, SDR grade, and order quantity.</p>
-          </div>
-
-          <div class="grid md:grid-cols-2 gap-4 mt-5 text-sm">
-            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/high-grade.svg" class="mb-3" alt="">Material: PE63 / PE80 / PE100</div>
-            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/performance.svg" class="mb-3" alt="">Size Range: 20mm to 400mm</div>
-            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/price_range.svg" class="mb-3" alt="">Pressure Class: 2.5 to 16 kgf/cm²</div>
-            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/Package.svg" class="mb-3" alt="">Packaging: Coil and straight lengths</div>
+          <h1 class="font-urbanist font-bold text-[40px] md:text-[56px] leading-[120%] text-black mt-4 mb-5">Premium HDPE Pipes & Coils for Modern Infrastructure</h1>
+          <p class="text-[#4D545C] text-base leading-[160%]">High-grade, BIS/ISO certified piping solutions engineered for irrigation, telecom, water supply, and industrial use. Built for durability and long-term field performance.</p>
+          <div class="grid md:grid-cols-2 gap-4 mt-8 text-sm">
+            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/high-grade.svg" class="mb-3" alt="">High Grade Material</div>
+            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/performance.svg" class="mb-3" alt="">Excellent Performance</div>
+            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/price_range.svg" class="mb-3" alt="">Competitive Price</div>
+            <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/Package.svg" class="mb-3" alt="">Reliable Packaging</div>
           </div>
         </div>
       </div>
