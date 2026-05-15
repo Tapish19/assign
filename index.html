@@ -1,83 +1,438 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HDPE Pipes</title>
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  <link rel="stylesheet" href="/styles.css" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Mangalam HDPE Pipes</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- GOOGLE FONTS -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Urbanist:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
 </head>
-<body class="bg-[url('/images/noise.svg')]">
-  <header class="navbar-web px-4 lg:px-[60px] xl:px-[100px] py-4 border-b border-[#E1E3E8] bg-white fixed top-0 left-0 right-0 z-[1000]">
-    <div class="max-w-[1240px] mx-auto flex justify-between items-center font-inter font-medium text-sm text-[#262A2E] w-full">
-      <img src="/images/mobile_logo.svg" alt="Euroflex" class="h-9">
-      <div class="hidden md:flex gap-6 items-center">
-        <a href="#page-1">Home</a>
-        <a href="#page-2">About</a>
-        <a href="#page-2">Products</a>
-        <button class="bg-[#2B3990] px-4 py-3 rounded-[10px] text-white">Contact Us</button>
-      </div>
-      <button class="md:hidden"><img src="/images/hamburger.svg" alt="menu"></button>
-    </div>
+
+<body>
+
+  <!-- =========================
+       STICKY HEADER
+  ========================== -->
+
+  <header
+    class="sticky-header"
+    id="stickyHeader"
+  >
+
+    <p>
+      Trusted HDPE Pipe Manufacturers
+    </p>
+
   </header>
 
-  <main class="pt-[78px]" id="app">
-    <section id="page-1" class="hero-fold-v2 px-4 lg:px-[60px] xl:px-[100px] pt-6 lg:pt-8">
-      <div class="max-w-[1240px] mx-auto">
-        <nav class="flex gap-2 items-center lg:mt-8 mt-6">
-          <p class="font-inter text-sm text-[#4D545C]">Products</p>
-          <img src="/images/CaretRight.svg" alt="breadcrumb caret">
-          <p class="font-inter text-sm text-black">Two For One Twister</p>
-        </nav>
-        <div class="mt-7 lg:mt-10 flex flex-col lg:flex-row items-start gap-14 lg:gap-16">
-          <div class="w-full lg:flex-1 lg:max-w-[50%]">
-            <div class="relative xl:w-[530px] lg:w-[440px] lg:h-[500px] md:h-[500px] w-full h-[320px] overflow-hidden bg-gray-100 rounded-3xl">
-              <img src="/images/hero_first_image.png" class="w-full h-full rounded-3xl object-cover" alt="Two For One Twister product image">
-            </div>
-            <div class="mt-4 flex gap-3 overflow-x-auto scrollbar-hide pb-2">
-              <img src="/images/hero_first_image.png" class="relative flex-shrink-0 rounded-xl overflow-hidden w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 opacity-100 scale-105 object-cover" alt="thumb 1">
-              <img src="/images/hero_second_image.jpg" class="relative flex-shrink-0 rounded-xl overflow-hidden w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 opacity-40 object-cover" alt="thumb 2">
-              <img src="/images/hero_third_image.jpg" class="relative flex-shrink-0 rounded-xl overflow-hidden w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 opacity-40 object-cover" alt="thumb 3">
-              <img src="/images/hero_fourth_image.jpg" class="relative flex-shrink-0 rounded-xl overflow-hidden w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 opacity-40 object-cover" alt="thumb 4">
-              <img src="/images/hero_fifth_image.jpg" class="relative flex-shrink-0 rounded-xl overflow-hidden w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 opacity-40 object-cover" alt="thumb 5">
-            </div>
+  <!-- =========================
+       NAVBAR
+  ========================== -->
+
+  <nav class="navbar">
+
+    <div class="logo">
+
+      <img
+        src="assets/logo.png"
+        alt="logo"
+      >
+
+    </div>
+
+    <div class="nav-links">
+
+      <a href="#">
+        About Us
+      </a>
+
+      <a href="#">
+        Products
+      </a>
+
+      <button class="contact-btn">
+        Contact Us
+      </button>
+
+    </div>
+
+  </nav>
+
+  <!-- =========================
+       MAIN
+  ========================== -->
+
+  <main class="main-container">
+
+    <!-- BREADCRUMB -->
+
+    <div class="breadcrumb">
+
+      Products > HDPE Pipes
+
+    </div>
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section class="hero-section">
+
+      <!-- LEFT -->
+
+      <div class="left-section">
+
+        <!-- MAIN IMAGE -->
+
+        <div class="carousel-container">
+
+          <button class="carousel-btn left-btn">
+            &#8592;
+          </button>
+
+          <img
+            id="mainImage"
+            class="main-image"
+            src="assets/product1.jpg"
+            alt="Product Image"
+          >
+
+          <button class="carousel-btn right-btn">
+            &#8594;
+          </button>
+
+        </div>
+
+        <!-- THUMBNAILS -->
+
+        <div class="thumbnail-wrapper">
+
+          <img
+            class="thumbnail active"
+            src="assets/product1.jpg"
+            alt=""
+          >
+
+          <img
+            class="thumbnail"
+            src="assets/product2.jpg"
+            alt=""
+          >
+
+          <img
+            class="thumbnail"
+            src="assets/product3.jpg"
+            alt=""
+          >
+
+          <img
+            class="thumbnail"
+            src="assets/product4.jpg"
+            alt=""
+          >
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="right-section">
+
+        <!-- TAGS -->
+
+        <div class="tags">
+
+          <span>BIS Certified</span>
+
+          <span>ISO Certified</span>
+
+          <span>CE Certified</span>
+
+        </div>
+
+        <!-- TITLE -->
+
+        <h1>
+
+          Premium HDPE Pipes &
+          Coils for Modern
+          Infrastructure
+
+        </h1>
+
+        <!-- FEATURES -->
+
+        <ul class="features">
+
+          <li>Leak-Proof Fusion Joints</li>
+
+          <li>Chemical Resistance</li>
+
+          <li>50+ Year Service Life</li>
+
+          <li>Flexible Installation</li>
+
+          <li>Corrosion Free Material</li>
+
+        </ul>
+
+        <!-- PRICE CARD -->
+
+        <div class="price-card">
+
+          <p class="price-label">
+
+            Price Range
+
+          </p>
+
+          <h2>
+
+            ₹4,80,000 - ₹7,90,000
+
+          </h2>
+
+          <div class="shipping-row">
+
+            <span>
+              Shipping: 6-12 days
+            </span>
+
+            <span>
+              Returns within 7 days
+            </span>
+
           </div>
 
-          <div class="w-full lg:flex-1">
-            <h1 class="font-urbanist font-bold text-[40px] md:text-[56px] leading-[120%] text-black mt-4 mb-5">Two For One Twister</h1>
-            <p class="text-[#4D545C] text-base leading-[160%]">Premium HDPE pipes built for irrigation, telecom, water supply, and infrastructure projects with consistent pressure handling and long service life.</p>
+          <div class="certification">
 
-            <div class="mt-8 p-6 rounded-3xl bg-[#F7F8F9] border border-[#E1E3E8]">
-              <p class="text-sm font-medium text-[#6A7077]">Price Range</p>
-              <div class="flex items-center justify-between mt-2">
-                <h3 class="font-urbanist font-bold text-[28px] text-[#111827]">₹120 - ₹1,850 <span class="text-base font-medium text-[#6A7077]">/ meter</span></h3>
-                <img src="/images/price-range-tab.svg" alt="price range" class="w-[68px] h-[30px]">
-              </div>
-              <p class="text-sm text-[#4D545C] mt-2">Final pricing depends on diameter, SDR grade, and order quantity.</p>
-            </div>
+            Certifications:
+            ISO Certified, BIS Certified
 
-            <div class="grid md:grid-cols-2 gap-4 mt-5 text-sm">
-              <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/high-grade.svg" class="mb-3" alt="material">Material: PE63 / PE80 / PE100</div>
-              <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/performance.svg" class="mb-3" alt="size">Size Range: 20mm to 400mm</div>
-              <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/price_range.svg" class="mb-3" alt="pressure">Pressure Class: 2.5 to 16 kgf/cm²</div>
-              <div class="p-4 rounded-2xl bg-white border border-[#E1E3E8]"><img src="/images/Package.svg" class="mb-3" alt="packaging">Packaging: Coil and straight lengths</div>
-            </div>
           </div>
+
         </div>
+
+        <!-- BUTTONS -->
+
+        <div class="button-group">
+
+          <button class="primary-btn">
+
+            Get Custom Quote
+
+          </button>
+
+          <button class="secondary-btn">
+
+            View Technical Specs →
+
+          </button>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section id="page-2" class="frame-2147224784 px-4 lg:px-[60px] xl:px-[100px] py-12 lg:py-20 text-white">
-      <div class="max-w-[1240px] w-full mx-auto">
-        <h2 class="font-urbanist font-bold text-4xl md:text-[56px] leading-[120%] mb-5">Built for Projects That Need Reliability</h2>
-        <p class="text-white/80 text-base leading-[160%] max-w-[800px]">Euroflex pipes are engineered for pressure durability, weather resistance, and clean fluid transfer. Our manufacturing process ensures consistent wall thickness and field-ready performance for long-term infrastructure work.</p>
-        <div class="grid md:grid-cols-3 gap-6 mt-10">
-          <div class="bg-[#1F2937] border border-[#374151] p-6 rounded-2xl"><img src="/images/bis_certificate.svg" class="mb-3" alt="BIS">BIS Certified Production</div>
-          <div class="bg-[#1F2937] border border-[#374151] p-6 rounded-2xl"><img src="/images/iso_certificate.svg" class="mb-3" alt="ISO">ISO Process Quality</div>
-          <div class="bg-[#1F2937] border border-[#374151] p-6 rounded-2xl"><img src="/images/ce_certificate.svg" class="mb-3" alt="CE">CE Marked Standards</div>
-        </div>
+    <!-- =========================
+         TRUSTED SECTION
+    ========================== -->
+
+    <section class="trusted-section">
+
+      <p>
+
+        Trusted by Hundreds of Companies Globally
+
+      </p>
+
+      <div class="company-logos">
+
+        <img src="assets/euroflex.png" alt="">
+
+        <img src="assets/euroflex.png" alt="">
+
+        <img src="assets/euroflex.png" alt="">
+
+        <img src="assets/euroflex.png" alt="">
+
+        <img src="assets/euroflex.png" alt="">
+
       </div>
+
     </section>
+
+    <!-- =========================
+         TECHNICAL SPECIFICATIONS
+    ========================== -->
+
+    <section class="specs-section">
+
+      <!-- HEADER -->
+
+      <div class="specs-header">
+
+        <h2>
+
+          Technical Specifications
+          at a Glance
+
+        </h2>
+
+        <p>
+
+          Comprehensive performance data demonstrating our
+          commitment to quality and engineering excellence.
+
+        </p>
+
+      </div>
+
+      <!-- TABLE -->
+
+      <div class="specs-table">
+
+        <!-- LEFT COLUMN -->
+
+        <div class="table-column heading-column">
+
+          <div class="table-cell heading">
+            PARAMETER
+          </div>
+
+          <div class="table-cell">
+            Pipe Diameter Range
+          </div>
+
+          <div class="table-cell">
+            Pressure Ratings
+          </div>
+
+          <div class="table-cell">
+            Standard Dimension Ratio
+          </div>
+
+          <div class="table-cell">
+            Operating Temperature
+          </div>
+
+          <div class="table-cell">
+            Service Life
+          </div>
+
+          <div class="table-cell">
+            Material Density
+          </div>
+
+          <div class="table-cell">
+            Certification Standards
+          </div>
+
+          <div class="table-cell">
+            Joint Type
+          </div>
+
+          <div class="table-cell">
+            Coil Lengths
+          </div>
+
+          <div class="table-cell">
+            Country of Origin
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN -->
+
+        <div class="table-column value-column">
+
+          <div class="table-cell heading">
+            SPECIFICATION
+          </div>
+
+          <div class="table-cell">
+            20mm to 1600mm (3/4" to 63")
+          </div>
+
+          <div class="table-cell">
+            PN 2.5, PN 4, PN 6, PN 8, PN 10, PN 12.5, PN 16
+          </div>
+
+          <div class="table-cell">
+            SDR 33, SDR 26, SDR 21, SDR 17, SDR 13.6, SDR 11
+          </div>
+
+          <div class="table-cell">
+            -40°C to +80°C (-40°F to +176°F)
+          </div>
+
+          <div class="table-cell">
+            50+ Years (at 20°C, PN 10)
+          </div>
+
+          <div class="table-cell">
+            0.95 - 0.96 g/cm3
+          </div>
+
+          <div class="table-cell">
+            IS 5984, ISO 4427, ASTM D3035
+          </div>
+
+          <div class="table-cell">
+            Butt Fusion, Electrofusion, Mechanical
+          </div>
+
+          <div class="table-cell">
+            Up to 500mm (for smaller diameters)
+          </div>
+
+          <div class="table-cell">
+            🇮🇳 India
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- DOWNLOAD BUTTON -->
+
+      <button class="download-btn">
+
+        ↓ Download Full Technical Datasheet
+
+      </button>
+
+    </section>
+
   </main>
+
+  <!-- =========================
+       SCRIPT
+  ========================== -->
+
+  <script src="script.js"></script>
+
 </body>
+
 </html>
