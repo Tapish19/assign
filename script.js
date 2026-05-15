@@ -42,22 +42,17 @@ app.innerHTML = `
 </header>
 
 <main class="pt-[78px]">
-  <section id="products" class="hero-fold-v2 px-4 lg:px-[60px] xl:px-[100px] pt-6 lg:pt-8">
-    <div class="max-w-[1240px] mx-auto">
-      <nav class="flex gap-2 items-center lg:mt-8 mt-6" aria-label="Breadcrumb">
-        <p class="font-inter text-sm text-[#4D545C]">Products</p>
-        <img src="/images/CaretRight.svg" alt="">
-        <p class="font-inter text-sm text-black">Two For One Twister</p>
-      </nav>
-
-      <div class="mt-7 lg:mt-10 flex flex-col lg:flex-row items-start gap-14 lg:gap-16">
-        <div class="w-full lg:flex-1 lg:max-w-[50%]">
-          <div class="relative xl:w-[530px] lg:w-[440px] lg:h-[500px] md:h-[500px] w-full h-[320px] overflow-hidden bg-gray-100 rounded-3xl">
-            <img id="hero-main" src="/images/hero_first_image.png" class="w-full h-full rounded-3xl object-cover" alt="hero">
-            <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2" aria-label="Previous image"><img src="/images/left-arrow.png" class="lg:size-10 size-8" alt="prev"></button>
-            <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2" aria-label="Next image"><img src="/images/right-arrow.png" class="lg:size-10 size-8" alt="next"></button>
-          </div>
-          <div id="thumbs" class="mt-4 flex gap-3 overflow-x-auto scrollbar-hide pb-2"></div>
+<section id="products" class="hero-fold-v2 px-4 lg:px-[60px] xl:px-[100px] pt-6 lg:pt-8">
+  <div class="max-w-[1240px] mx-auto">
+    <nav class="flex gap-2 items-center lg:mt-8 mt-6">
+      <p class="font-inter text-sm text-[#4D545C]">Products</p><img src="/images/CaretRight.svg" alt=""><p class="font-inter text-sm text-black">Two For One Twister</p>
+    </nav>
+    <div class="mt-7 lg:mt-10 flex flex-col lg:flex-row items-start gap-14 lg:gap-16">
+      <div class="w-full lg:flex-1 lg:max-w-[50%]">
+        <div class="relative xl:w-[530px] lg:w-[440px] lg:h-[500px] md:h-[500px] w-full h-[320px] overflow-hidden bg-gray-100 rounded-3xl">
+          <img id="hero-main" src="/images/hero_first_image.png" class="w-full h-full rounded-3xl object-cover" alt="hero">
+          <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2"><img src="/images/left-arrow.png" class="lg:size-10 size-8" alt="prev"></button>
+          <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2"><img src="/images/right-arrow.png" class="lg:size-10 size-8" alt="next"></button>
         </div>
 
         <div class="w-full lg:flex-1">
