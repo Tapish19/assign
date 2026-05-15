@@ -1,7 +1,7 @@
 const app = document.getElementById('app');
 
 app.innerHTML = `
-<header class="px-4 lg:px-[60px] xl:px-[100px] py-4 border-b border-[#E1E3E8] bg-white fixed top-0 left-0 right-0 z-[1000]">
+<header class="navbar-web px-4 lg:px-[60px] xl:px-[100px] py-4 border-b border-[#E1E3E8] bg-white fixed top-0 left-0 right-0 z-[1000]">
   <div class="max-w-[1240px] mx-auto flex justify-between items-center font-inter font-medium text-sm text-[#262A2E]">
     <img src="/images/mobile_logo.svg" alt="Euroflex" class="h-9">
     <div class="hidden md:flex gap-6 items-center">
@@ -15,7 +15,7 @@ app.innerHTML = `
 </header>
 
 <main class="pt-[78px]">
-<section id="products" class="px-4 lg:px-[60px] xl:px-[100px] pt-6 lg:pt-8">
+<section id="products" class="hero-fold-v2 px-4 lg:px-[60px] xl:px-[100px] pt-6 lg:pt-8">
   <div class="max-w-[1240px] mx-auto">
     <nav class="flex gap-2 items-center lg:mt-8 mt-6">
       <p class="font-inter text-sm text-[#4D545C]">Products</p><img src="/images/CaretRight.svg" alt=""><p class="font-inter text-sm text-black">Two For One Twister</p>
@@ -59,7 +59,7 @@ app.innerHTML = `
 </section>
 </main>
 
-<footer class="bg-[#111827] text-white px-4 lg:px-[60px] xl:px-[100px] py-10">
+<footer class="frame-2147224784 bg-[#111827] text-white px-4 lg:px-[60px] xl:px-[100px] py-10">
   <div class="max-w-[1240px] mx-auto flex flex-col md:flex-row justify-between gap-6">
     <div><img src="/images/footer_mobile_logo.svg" alt="footer" class="mb-3"><p class="text-sm text-white/80">Built for modern infrastructure projects across India.</p></div>
     <div class="text-sm text-white/80">support@euroflex.co<br>+91 90000 10000</div>
